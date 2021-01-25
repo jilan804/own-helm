@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: 292090429255.dkr.ecr.ap-south-1.amazonaws.com/eks:latest
-  tag: ""
+# tag: ""
 # tag: 0.1
   pullPolicy: IfNotPresent
 
