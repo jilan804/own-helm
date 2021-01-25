@@ -5,8 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: 292090429255.dkr.ecr.ap-south-1.amazonaws.com/eks:latest
-  tag: 0.1
+  repository: 292090429255.dkr.ecr.ap-south-1.amazonaws.com/eks
+  tag: latest
+# tag: 0.1
   pullPolicy: IfNotPresent
 
 service:
